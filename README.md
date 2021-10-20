@@ -16,6 +16,6 @@ int main()
       n = n/10;
   }
    
-   printf("Reverse of the is %d:", reverse);  
-   
- }
+   printf("Reverse of the is %d:", reverse); 
+    return 0;
+  }
