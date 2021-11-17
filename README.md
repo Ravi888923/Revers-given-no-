@@ -5,9 +5,9 @@ In c program
 
 int main()
 {
-  int n,reverse,reminder;
+  long long n,reverse,reminder;
   printf("Enter the no to find its reverse:");
-  scanf("%d", & n);
+  scanf("%lld", & n);
   
   While(n != 0)
   {
@@ -16,6 +16,6 @@ int main()
       n = n/10;
   }
    
-   printf("Reverse of the is %d:", reverse); 
+   printf("Reverse of the is %lld:", reverse); 
     return 0;
   }
